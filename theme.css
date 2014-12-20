@@ -1,6 +1,9 @@
+@import url(http://fonts.googleapis.com/css?family=Open+Sans);
+
 *{
   margin: 0;
   padding: 0;
+  font-family: 'Open Sans', sans-serif;
 }
 
 .navbar-default{
@@ -46,6 +49,36 @@ padding: 12px;
   height: 380px;
 }
 
+.purple-alpha-channel{
+  background: rgba(27,16,77,0.9);
+  width: 100%;
+  height: 83.34%;
+}
+
+.green-alpha-channel{
+  background: rgba(2,51,78,0.8);
+  width: 100%;
+  height: 83.34%;
+}
+
+.blue-alpha-channel{
+  background: rgba(35,43,59,0.9);
+  width: 100%;
+  height: 83.34%;
+}
+
+.white:w-alpha-channel{
+  background: rgba(255,255,255,0.9);
+  width: 100%;
+  height: 83.34%;
+}
+
+.magenta-alpha-channel{
+  background: rgba(242,0,98,0.8);
+  width: 100%;
+  height: 40%;
+}
+
 .event-info{
 padding-top: 125px;
 color: white;
@@ -65,4 +98,139 @@ text-align: center;
   font-size: 24px;
 }
 
-@media 
+.cards{
+  margin: 50px;
+}
+
+.challenge-card{
+  background: url("back.png");
+  background-size: 100% 83.34%;
+  /* width: 300px; */
+  height: 350px;
+  box-shadow: 0 12px 15px 0 rgba(0, 0, 0, 0.24);
+  margin-bottom: 30px;
+  
+} 
+
+.challenge-title{
+  padding: 15px;
+  color: white;
+  text-align: center;
+  padding-top: 95px;
+}
+
+
+.create-challenge-title{
+  padding: 15px;
+  color: rgba(0,0,0,0.2);
+  text-align: center;
+  padding-top: 95px;
+  padding-bottom: 95px;
+}
+
+.actions{
+  font-family: 'Open Sans', sans-serif;
+  background: white;
+  padding: 10px;
+  height: 70px;
+  color: grey;
+  text-align: center; 
+  font-size: 12px;
+  line-height: 25px;
+}
+
+.actions > li{
+  text-align: center;
+  display: inline;
+  font-size: 20px;
+  color: grey;
+  margin-top: 20px;
+  padding: 15px;
+  -webkit-tap-highlight-color: rgba(0,0,0,0);
+}
+
+.new-card{
+  /* width: 300px; */
+  height: 350px;
+  box-shadow: 0 12px 15px 0 rgba(0, 0, 0, 0.24);
+  margin-bottom: 30px;
+  border: 1px dashed grey;
+}
+
+.plus-sign{
+  font-size: 50px;
+  color: grey;
+  text-align: center;
+  border-radius: 2px;
+  padding: 30px;
+}
+
+.user-card{
+  background: url("https://scontent-a-mia.xx.fbcdn.net/hphotos-xpf1/v/t1.0-9/10291719_10204370501201227_447156517428043744_n.jpg?oh=0197fb0c0261ff5e9b5f045e6baf874f&oe=5503F4CB");
+   background-size: cover;
+  /* width: 300px; */
+  height: 350px;
+  box-shadow: 0 12px 15px 0 rgba(0, 0, 0, 0.24);
+  margin-bottom: 30px;
+
+}
+
+.user-name{
+  padding: 15px;
+  padding-top: 60px;
+  text-align: left;
+  color: white;
+}
+
+.user-actions{
+  font-family: 'Open Sans', sans-serif;
+  background: white;
+  padding: 10px;
+  height: 60%;
+  color: grey;
+  text-align: left; 
+  font-size: 12px;
+  line-height: 25px;
+}
+
+.user-actions > li{
+  text-align: center;
+  display: inline;
+  font-size: 20px;
+  color: grey;
+  margin-top: 20px;
+  padding: 15px;
+  -webkit-tap-highlight-color: rgba(0,0,0,0);
+}
+
+.create-call-to-action{
+  margin: 0 30%;
+  margin-top: 18px;
+  border: 4px solid rgba(0,0,0,0.2);
+  padding:6px;
+  text-align: center;
+}
+
+.create-call-to-action>a{
+  color: rgba(0,0,0,0.2);
+  font-size: 18px;
+}
+
+.color-call-to-action{
+  margin: 0 30%;
+  margin-top: 18px;
+  border: 4px solid rgba(242,0,98,1);
+  padding:6px;
+  text-align: center;
+}
+
+.color-call-to-action>a{
+  color: rgba(242,0,98,1);
+  font-size: 18px;
+}
+
+.col-md-3{
+  padding-left: 0;
+  padding-right: 0;
+  margin-right: 10px;
+}
